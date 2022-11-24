@@ -11,11 +11,11 @@
         </div>
         <div class="form-group">
             <label for="tgl_masuk">Tanggal Masuk</label>
-            <input type="date" class="form-control" name="tgl_masuk">
+            <input type="text" class="form-control" name="tgl_masuk" id="datepicker1" data-date-format="dd MM yyyy">
         </div>
         <div class="form-group">
             <label for="tgl_keluar">Tanggal Keluar</label>
-            <input type="date" class="form-control" name="tgl_keluar">
+            <input type="text" class="form-control" name="tgl_keluar" id="datepicker2" data-date-format="dd MM yyyy">
         </div>
         <div class="form-group">
             <label for="foto_barang">Foto Barang</label>
